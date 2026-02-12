@@ -1,0 +1,64 @@
+{
+  "status": 0,
+  "message": "Success",
+  "error": null,
+  "version": "1.0",
+  "correlationId": "550e8400-e29b-41d4-a716-446655440000",
+  "statusCode": 200,
+  "data": {
+    "header": {
+      "vessel": "MAERSK SEALAND",
+      "lloydNo": "9123456",
+      "voyage": "2024-V01",
+      "oceanBL": "OBL-99887766",
+      "principalAgentId": "AGT-001",
+      "firstAusPortCode": "SYD"
+    },
+    "billOfLadingDetails": [
+      {
+        "bolGimId": 1001,
+        "hbl": "HBL123456",
+        "parentBL": "MBL-XYZ",
+        "source": "SNG",
+        "destination": "SYD",
+        "shipper": "ABC EXPORTS LTD",
+        "consignee": "XYZ IMPORTS PTY",
+        "ffInd": true,
+        "goodsOrigin": "SNG",
+        "messageStatus": "SENT",
+        "customStatus": "CLEAR"
+      },
+      {
+        "bolGimId": 1002,
+        "hbl": "HBL789012",
+        "parentBL": "MBL-XYZ",
+        "source": "SNG",
+        "destination": "MEL",
+        "shipper": "GLOBAL TRADE CO",
+        "consignee": "AUS RETAIL GROUP",
+        "ffInd": false,
+        "goodsOrigin": "CHN",
+        "messageStatus": "ERROR",
+        "customStatus": "HELD"
+      }
+    ],
+    "underbondMovements": [
+      {
+        "movementId": 5001,
+        "originId": "SNG",
+        "destinationId": "SYD",
+        "dischargeId": "SYD",
+        "reference": "UBM-REF-001",
+        "moveType": "DEL",
+        "ubmFor": "CONT123456:HBL123456",
+        "modeOfMove": "ROA",
+        "discharge": true,
+        "partyId": "123456",
+        "messageStatus": "QUEQUED",
+        "messageDescription": "Ready for sending",
+        "customStatus": null,
+        "customDescription": null
+      }
+    ]
+  }
+}

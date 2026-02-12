@@ -1,0 +1,14 @@
+{
+  "name": "shikshamitra-login",
+  "description": "The single-spa root config for coexisting-angular-microfrontends",
+  "main": "index.js",
+  "scripts": {
+    "start": "serve -s -l 4200"
+  },
+  "author": "Uday Kumar Bittu",
+  "license": "UKB",
+  "devDependencies": {
+    "serve": "^11.1.0"
+  },
+  "dependencies": {}
+}

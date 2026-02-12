@@ -1,0 +1,14 @@
+{
+  "Status": "Success",
+  "Message": "Success",
+  "Error": null,
+  "Version": "1.0",
+  "CorrelationId": null,
+  "Data": {
+    "VesselId": 4,
+    "Name": "JOHN WOOD",
+    "LloydsNr": "4902945",
+    "CallSign": null,
+    "Flag": "Sierra Leone"
+  }
+}

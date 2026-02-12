@@ -1,0 +1,33 @@
+{
+  "Status": "Success",
+  "Message": "Success",
+  "Error": null,
+  "Version": "1.0",
+  "CorrelationId": null,
+  "Data": [
+    {
+      "Code": "20FR",
+      "Description": "20' Flat Rack"
+    },
+    {
+      "Code": "21FR",
+      "Description": "21' Flat Rack"
+    },
+    {
+      "Code": "22FR",
+      "Description": "22' Flat Rack"
+    },
+    {
+      "Code": "40FR",
+      "Description": "40' Flat Rack"
+    },
+    {
+      "Code": "45FR",
+      "Description": "45' Flat Rack"
+    },
+    {
+      "Code": "48FR",
+      "Description": "48' Flat Rack"
+    }
+  ]
+}

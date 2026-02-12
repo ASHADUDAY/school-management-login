@@ -1,0 +1,129 @@
+<!doctype html>
+<html>
+  <head>
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src *  data: blob: 'unsafe-inline' 'unsafe-eval'; script-src * 'unsafe-inline' 'unsafe-eval'; connect-src * 'unsafe-inline'; img-src * data: blob: 'unsafe-inline'; frame-src *; style-src * data: blob: 'unsafe-inline'; font-src * data: blob: 'unsafe-inline';"
+    />
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>ShikshaMitra</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="importmap-type" content="systemjs-importmap" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@300..900&family=Doppio+One&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Playwrite+MX:wght@100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="../material-design-icons-iconfont/dist/fonts/"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://dev-prefiler.allcargoapps.com/assets/css/bootstrap.min.css"
+    />
+
+    <style>
+      body {
+        background: #00efef0a !important;
+      }
+    </style>
+    <script type="systemjs-importmap">
+      {
+        "imports": {
+          "ams-prefiler": "http://localhost:9002/main.js",
+          "navbar": "http://localhost:4600/main.js",
+          "single-spa": "https://cdnjs.cloudflare.com/ajax/libs/single-spa/5.5.0/system/single-spa.min.js",
+          "single-spa-layout": "https://unpkg.com/single-spa-layout@1.0.0-beta.2/dist/system/single-spa-layout.min.js"
+        }
+      }
+    </script>
+<link
+      rel="preload"
+      href="https://cdnjs.cloudflare.com/ajax/libs/single-spa/5.5.0/system/single-spa.min.js"
+      as="script"
+      crossorigin="anonymous"
+    />
+    <script src="https://unpkg.com/core-js-bundle@3.1.4/minified.js"></script>
+    <script src="https://unpkg.com/zone.js@0.10.3/dist/zone.js"></script>
+    <script src="https://unpkg.com/import-map-overrides@1.15.1/dist/import-map-overrides.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/systemjs/4.0.0/system.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/systemjs/4.0.0/extras/amd.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/systemjs/4.0.0/extras/named-exports.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/systemjs/4.0.0/extras/named-register.min.js"></script>
+    <script
+      type="text/JavaScript"
+      src="https://dev-prefiler.allcargoapps.com/assets/js/bootstrap.bundle.min.js"
+    ></script>
+    <style>
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6,
+      p,
+      span,
+      a,
+      label,
+      th,
+      td,
+      input,
+      body {
+        font-family: "Poppins", sans-serif !important;
+      }
+    </style>
+    <template id="single-spa-layout">
+      <single-spa-router>
+        <nav class="topnav" path="shared">
+          <application name="navbar"></application>
+        </nav>
+        <div class="main-content py-2 px-4" style="background-color: #f8f9fa">
+          <route path="ams">
+            <application name="ams-prefiler"></application>
+          </route>
+        </div>
+      </single-spa-router>
+    </template>
+  </head>
+  <body>
+    <script>
+      Promise.all([
+        System.import("single-spa"),
+        System.import("single-spa-layout"),
+      ]).then(([singleSpa, singleSpaLayout]) => {
+        const {
+          constructApplications,
+          constructLayoutEngine,
+          constructRoutes,
+        } = singleSpaLayout;
+        const { registerApplication, start } = singleSpa;
+
+        const routes = constructRoutes(
+          document.querySelector("#single-spa-layout"),
+        );
+        const applications = constructApplications({
+          routes,
+          loadApp({ name }) {
+            return System.import(name);
+          },
+        });
+        const layoutEngine = constructLayoutEngine({ routes, applications });
+        applications.forEach(registerApplication);
+
+        start();
+      });
+    </script>
+    <!-- <import-map-overrides-full></import-map-overrides-full> -->
+  </body>
+</html>

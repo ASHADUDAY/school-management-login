@@ -1,0 +1,19 @@
+{
+  "Status": "Success",
+  "Message": "Success",
+  "Error": null,
+  "Version": "1.0",
+  "CorrelationId": null,
+  "Data": {
+    "CompanyID": 8,
+    "Name": "BONNYCOL ART CO., LTD",
+    "StreetAddress1": "363 RINKAICHO",
+    "StreetAddress2": "EDOGAWA-KU",
+    "City": "TOKYO",
+    "StateProvince": "",
+    "PostalZipCode": "134-8576",
+    "Country": "JP",
+    "Contact": "",
+    "Phone": "+813-38775114"
+  }
+}

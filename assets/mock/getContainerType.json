@@ -1,0 +1,33 @@
+{
+  "Status": "Success",
+  "Message": "Success",
+  "Error": null,
+  "Version": "1.0",
+  "CorrelationId": null,
+  "Data": [
+    {
+      "Code": "4B",
+      "Description": "40 ft. IL Container (Closed Top)"
+    },
+    {
+      "Code": "3B",
+      "Description": "30 ft. IL Container (Closed Top)"
+    },
+    {
+      "Code": "2B",
+      "Description": "20 ft. IL Container (Closed Top)"
+    },
+    {
+      "Code": "4D",
+      "Description": "40 ft. HC Container (Closed Top)"
+    },
+    {
+      "Code": "2D",
+      "Description": "20 ft. HC Container (Closed Top)"
+    },
+    {
+      "Code": "OT",
+      "Description": "Open Top Container"
+    }
+  ]
+}

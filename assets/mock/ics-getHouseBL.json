@@ -1,0 +1,102 @@
+{
+  "Status": "Success",
+  "Message": "Success",
+  "Error": null,
+  "Version": "1.0",
+  "CorrelationId": null,
+  "StatusCode": 200,
+  "ValidationErrors": null,
+  "Data": {
+    "Header": {
+      "FileNumber": "639",
+      "Hbl": "ECU00337367",
+      "HouseBlId": 1744,
+      "OceanBl": "HLCUSYD150202699",
+      "Vessel": "MANILA EXPRESS",
+      "Voyage": "5104",
+      "ParentBl": null,
+      "PreviousHbl": null,
+      "PortOfLoading": "MELBOURNE",
+      "PlaceOfDelivery": "TILBURY",
+      "PlaceOfIssue": "",
+      "Etd": null,
+      "Eta": "2015-04-16T00:00:00",
+      "MessageStatus": null,
+      "MessageDescription": null,
+      "CustomStatus": null,
+      "ErrorsOrWarnings": null,
+      "ConsignorName": null,
+      "ConsignorAddress": null,
+      "ConsigneeName": "DHL GLOBAL BS11 9DB",
+      "ConsigneeAddress": null,
+      "NotifyPartyName": null,
+      "NotifyPartyAddress": null
+    },
+    "Parties": {
+      "Consignor": {
+        "Code": null,
+        "Name": null,
+        "Address1": null,
+        "Address2": null,
+        "Address3": null,
+        "City": null,
+        "State": null,
+        "PostCode": null,
+        "Country": null,
+        "UnformattedAddress": "DHL GLOBAL FORWARDING\r\n96-106 LINK ROAD\r\nMELBOURNE AIRPORT VIC 3045\r\nAUSTRALIA"
+      },
+      "Consignee": {
+        "Code": null,
+        "Name": "DHL GLOBAL BS11 9DB",
+        "Address1": null,
+        "Address2": null,
+        "Address3": null,
+        "City": null,
+        "State": null,
+        "PostCode": null,
+        "Country": null,
+        "UnformattedAddress": "DHL GLOBAL FORWARDING (UK) LIMITED BRISTOL UNITS 1&2\r\nAVON RIVERSIDE EST BS11 9DB,\r\nBRISTOL UNITED KINGDOM"
+      },
+      "NotifyParty": {
+        "Code": null,
+        "Name": null,
+        "Address1": null,
+        "Address2": null,
+        "Address3": null,
+        "City": null,
+        "State": null,
+        "PostCode": null,
+        "Country": null,
+        "UnformattedAddress": "DHL GLOBAL FORWARDING (UK) LIMITED BRISTOL UNITS 1&2\r\nAVON RIVERSIDE EST BS11 9DB,\r\nBRISTOL UNITED KINGDOM"
+      }
+    },
+    "CargoDetails": {
+      "ContainerNumber": "MBIU 821556-7",
+      "PackageCode": "SKID STC",
+      "PackageType": null,
+      "NumberOfPackages": 2,
+      "GrossWeight": 657.0,
+      "GrossVolume": 2.5,
+      "CommodityCode": "",
+      "GoodsDescription": "STC: \r\nELECTRONIC POWER SUPPLES SX-750\r\n657 KGS / 2.5M3\r\nAHECC: 85389090\r\nEDN: ACKLXY9LR\r\nCRN: ACKML4HGM\r\nMARKS: AINSWORTH (UK) LIMITED\r\nT1E15020586",
+      "ShipperOwnedContainer": false,
+      "Timber": false,
+      "Hazardous": false,
+      "Fumigation": false,
+      "ReportableDocuments": false,
+      "PerishableGoods": false,
+      "PersonalEffects": false,
+      "SelfAssessedClearance": false
+    },
+    "Indicators": {
+      "FreightIndicator": null,
+      "BlType": null,
+      "TransportMode": null,
+      "ExpectedTransshipmentDate": null,
+      "IsFreightForwarder": false,
+      "IsShortShipment": false,
+      "IsSplitShipment": false,
+      "IsNonOriginatingGoods": false
+    }
+  }
+}

@@ -1,0 +1,165 @@
+{
+  "Status": "Success",
+
+  "Message": "Success",
+
+  "Error": null,
+
+  "Version": "1.0",
+
+  "CorrelationId": null,
+
+  "StatusCode": 200,
+
+  "ValidationErrors": null,
+
+  "Data": {
+    "Header": {
+      "FileId": 614,
+
+      "Vessel": "THALASSA PATRIS",
+
+      "LloydNo": "9665607",
+
+      "Voyage": "6-007W",
+
+      "OceanBL": "KKLUNB8578508",
+
+      "PrincipalAgentId": null,
+
+      "FirstAusPortCode": "FELIXSTOWE"
+    },
+
+    "BillOfLadingDetails": [],
+
+    "UnderbondMovements": [
+      {
+        "MovementId": 265,
+
+        "MovementType": "DEL",
+
+        "UnderbondFor": "TCNU 438059-0:NGB/SOU/00777",
+
+        "MovementMode": "ROA",
+
+        "OriginCCP": null,
+
+        "DestinationCCP": null,
+
+        "DischargeCCp": null,
+
+        "Discharge": true,
+
+        "ResponsiblepartyId": "11095072334",
+
+        "MessageStatus": "QUEQUED",
+
+        "MessageDescription": null,
+
+        "CustomsStatus": null,
+
+        "CustomsDescription": null,
+
+        "UnderbondReference": null,
+
+        "CreateDate": "2025-12-15T10:30:27.206731"
+      },
+
+      {
+        "MovementId": 232,
+
+        "MovementType": "DEL",
+
+        "UnderbondFor": "TCNU 438059-0:NGB/FXT/03886",
+
+        "MovementMode": "ROA",
+
+        "OriginCCP": null,
+
+        "DestinationCCP": null,
+
+        "DischargeCCp": null,
+
+        "Discharge": true,
+
+        "ResponsiblepartyId": "11095072334",
+
+        "MessageStatus": "QUEQUED",
+
+        "MessageDescription": null,
+
+        "CustomsStatus": null,
+
+        "CustomsDescription": null,
+
+        "UnderbondReference": null,
+
+        "CreateDate": "2025-12-15T08:18:59.487925"
+      },
+
+      {
+        "MovementId": 199,
+
+        "MovementType": "DCL",
+
+        "UnderbondFor": "TCNU 438059-0",
+
+        "MovementMode": "ROA",
+
+        "OriginCCP": null,
+
+        "DestinationCCP": null,
+
+        "DischargeCCp": null,
+
+        "Discharge": true,
+
+        "ResponsiblepartyId": "11095072334",
+
+        "MessageStatus": "QUEQUED",
+
+        "MessageDescription": null,
+
+        "CustomsStatus": null,
+
+        "CustomsDescription": null,
+
+        "UnderbondReference": null,
+
+        "CreateDate": "2025-12-08T06:58:49.605147"
+      },
+
+      {
+        "MovementId": 70,
+
+        "MovementType": "DEL",
+
+        "UnderbondFor": "TCNU 438059-0:NGB/FXT/03822",
+
+        "MovementMode": "ROA",
+
+        "OriginCCP": null,
+
+        "DestinationCCP": null,
+
+        "DischargeCCp": null,
+
+        "Discharge": true,
+
+        "ResponsiblepartyId": "11095072334",
+
+        "MessageStatus": "QUEQUED",
+
+        "MessageDescription": null,
+
+        "CustomsStatus": null,
+
+        "CustomsDescription": null,
+
+        "UnderbondReference": null,
+
+        "CreateDate": "2025-11-20T05:35:11.070162"
+      }
+    ]
+  }
+}

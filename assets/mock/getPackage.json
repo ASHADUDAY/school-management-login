@@ -1,0 +1,11 @@
+{
+  "Status": "Success",
+  "Message": "Success",
+  "Error": null,
+  "Version": "1.0",
+  "CorrelationId": null,
+  "Data": {
+    "Code": "BAG",
+    "Description": "BAG"
+  }
+}

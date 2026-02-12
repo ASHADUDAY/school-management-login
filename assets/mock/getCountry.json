@@ -1,0 +1,12 @@
+{
+  "Status": "Success",
+  "Message": "Success",
+  "Error": null,
+  "Version": "1.0",
+  "CorrelationId": null,
+  "Data": {
+    "ISO2": "US",
+    "Country": "UNITED STATES",
+    "ZipCodeReqForAFR": true
+  }
+}
