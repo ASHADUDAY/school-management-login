@@ -1,0 +1,14 @@
+{
+  "Status": "Success",
+  "Message": null,
+  "Error": null,
+  "StatusCode": 200,
+  "Version": "1.2",
+  "ReffrenceData": null,
+  "Data": {
+    "AuthToken": null,
+    "Id": 4691,
+    "UserId": "export",
+    "UserName": "EsSoudaigui Meriem"
+  }
+}

@@ -48,7 +48,7 @@
         }
       }
     </script>
-<link
+    <link
       rel="preload"
       href="https://cdnjs.cloudflare.com/ajax/libs/single-spa/5.5.0/system/single-spa.min.js"
       as="script"
@@ -88,11 +88,9 @@
         <nav class="topnav" path="shared">
           <application name="navbar"></application>
         </nav>
-        <div class="main-content py-2 px-4" style="background-color: #f8f9fa">
-          <route path="ams">
-            <application name="ams-prefiler"></application>
-          </route>
-        </div>
+        <route path="ams">
+          <application name="ams-prefiler"></application>
+        </route>
       </single-spa-router>
     </template>
   </head>
