@@ -10,5 +10,11 @@
   "devDependencies": {
     "serve": "^11.1.0"
   },
-  "dependencies": {}
+  "dependencies": {
+    "core-js-bundle": "^3.1.4",
+    "font-awesome": "^4.7.0",
+    "import-map-overrides": "^1.15.1",
+    "systemjs": "^4.0.0",
+    "zone.js": "^0.10.3"
+  }
 }
